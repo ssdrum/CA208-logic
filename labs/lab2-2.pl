@@ -8,7 +8,7 @@ positioned relatively to any point P2. Note how we only defined the north and
 west rules for adjacent points and derived everything else with a set of rules.
 */
 
-/* Fatcs */
+/* Facts */
 north(a, f).
 north(f, k).
 north(k, p).
@@ -43,7 +43,7 @@ west(r, s).
 west(s, t).
 
 
-/* rules */
+/* Rules */
 
 /* North */
 is_north(P1, P2) :- north(P1, P2).
